@@ -1,8 +1,12 @@
 import tensorflow as tf
 
+from models import DCGAN, LSGAN
+
 
 def main(argv=None):
-    print('ok')
+    dcgan = DCGAN()
+    lsgan = LSGAN()
+    print(dcgan, lsgan)
 
 
 if __name__ == '__main__':
